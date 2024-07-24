@@ -116,24 +116,24 @@ public class PrefsActivity extends Activity {
             //プログレスダイアログ表示中の画面回転対策
             setRetainInstance(true);
 
-            Preference backupPref = findPreference(getString(R.string.pref_backup));
-            backupPref.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-
-                @Override
-                public boolean onPreferenceClick(Preference preference) {
-                    comfirmBackup();
-                    return false;
-                }
-            });
-            Preference restorePref = findPreference(getString(R.string.pref_restore));
-            restorePref.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-
-                @Override
-                public boolean onPreferenceClick(Preference preference) {
-                    comfirmRestore();
-                    return false;
-                }
-            });
+//            Preference backupPref = findPreference(getString(R.string.pref_backup));
+//            backupPref.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+//
+//                @Override
+//                public boolean onPreferenceClick(Preference preference) {
+//                    comfirmBackup();
+//                    return false;
+//                }
+//            });
+//            Preference restorePref = findPreference(getString(R.string.pref_restore));
+//            restorePref.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+//
+//                @Override
+//                public boolean onPreferenceClick(Preference preference) {
+//                    comfirmRestore();
+//                    return false;
+//                }
+//            });
             Preference qrCodeHelp = findPreference(getString(R.string.pref_help_qr));
             qrCodeHelp.setOnPreferenceClickListener(new OnPreferenceClickListener() {
 
