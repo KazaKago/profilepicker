@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_phone_number">
+        <item>自宅</item>
+        <item>携帯電話</item>
+        <item>勤務先</item>
+        <item>学校</item>
+        <item>緊急</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="spinner_mail">
+        <item>自宅</item>
+        <item>携帯電話</item>
+        <item>パソコン</item>
+        <item>勤務先</item>
+        <item>学校</item>
+        <item>緊急</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="spinner_address">
+        <item>自宅</item>
+        <item>実家</item>
+        <item>寮</item>
+        <item>赴任先</item>
+        <item>勤務先</item>
+        <item>学校</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="spinner_member">
+        <item>勤務先</item>
+        <item>学校</item>
+        <item>サークル</item>
+        <item>部活</item>
+        <item>塾・予備校</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="spinner_memo">
+        <item>メモ</item>
+    </string-array>
+    <string-array name="menu_image">
+        <item>写真を撮る</item>
+        <item>ギャラリーから選択</item>
+        <item>画像設定なし</item>
+    </string-array>
+    <string-array name="menu_mushroom">
+        <item>内容を挿入</item>
+        <item>内容をクリップボードへコピー</item>
+    </string-array>
+
+</resources>

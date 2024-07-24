@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_group_backup_restore" >
+        <Preference
+            android:key="@string/pref_backup"
+            android:summary="@string/pref_backup_desc"
+            android:title="@string/pref_backup" />
+        <Preference
+            android:key="@string/pref_restore"
+            android:summary="@string/pref_resotre_desc"
+            android:title="@string/pref_restore" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_group_about" >
+        <Preference
+            android:key="@string/pref_help_qr"
+            android:title="@string/pref_help_qr" />
+        <Preference
+            android:key="@string/pref_help_mushroom"
+            android:title="@string/pref_help_mushroom" />
+        <Preference
+            android:key="@string/pref_about"
+            android:title="@string/pref_about" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
