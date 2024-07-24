@@ -7,9 +7,9 @@ android {
     compileSdk = 34
     defaultConfig {
         applicationId = "com.weathercock.profilepicker_plus"
-        minSdk = 29
+        minSdk = 15
         targetSdk = 34
-        versionCode = 111
+        versionCode = 112
         versionName = "1.2.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
